@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+main {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#tarrifs {
+  width: fit-content;
+  border-collapse: collapse;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tarrifs > thead {
+  color: white;
+}
+
+#tarrifs td {
+  padding: 20px 30px;
+}
+
+#tarrifs th {
+  padding: 10px;
+}
+
+#tarrifs > thead th:first-child {
+  background-color: #7887ab;
+}
+
+#tarrifs > thead tr:first-child th:first-child {
+  border-top-left-radius: 10px;
+  font-size: 1.3rem;
+}
+
+#tarrifs > thead th:last-child {
+  background-color: #061439;
+}
+
+#tarrifs > thead tr:first-child th:last-child {
+  border-top-right-radius: 10px;
+}
+
+#tarrifs > thead th:nth-last-child(4) {
+  background-color: #4f618e;
+}
+
+#tarrifs > thead th:nth-last-child(3) {
+  background-color: #2e4172;
+}
+
+#tarrifs > thead th:nth-last-child(2) {
+  background-color: #162955;
+}
+
+#tarrifs > thead tr:nth-last-child(2) th {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 2rem;
+}
+
+#tarrifs tbody th {
+  text-align: justify;
+  font-weight: normal;
+  padding: 10px 40px;
+}
+
+#tarrifs > tbody tr:nth-child(odd) th {
+  background-color: #dbdbdb;
+}
+
+#tarrifs > tbody tr:nth-child(even) th {
+  background-color: #ececec;
+}
+
+#tarrifs > tbody tr:nth-child(odd) td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tarrifs > tbody tr:nth-child(odd) td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+#tarrifs > tbody tr:nth-child(even) td:nth-child(2n + 1) {
+  background-color: #ececec;
+}
+
+#tarrifs > tbody tr:nth-child(even) td:nth-child(2n) {
+  background-color: #f3f3f3;
+}
+
+#tarrifs > tfoot th:first-child {
+  background-color: #dbdbdb;
+}
+
+#tarrifs > tfoot td:nth-child(2n + 1) {
+  background-color: #dbdbdb;
+}
+
+#tarrifs > tfoot td:nth-child(2n) {
+  background-color: #e7e7e7;
+}
+
+#tarrifs a {
+  display: inline-block;
+  padding: 10px 30px;
+  margin-bottom: 5px;
+  color: #000;
+  background-color: #d3d3d3;
+  border: 1px solid #b9b9b9;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+#tarrifs a:hover {
+  color: white;
+  background-color: #192a55;
+  transform: scale(1.1);
+  transition: ease 0.3s;
+  border: 1px solid #000;
+}
+
+#tarrifs a:active {
+  transform: scale(1);
+  transition: ease 0.3s;
+}
